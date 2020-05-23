@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --image: url(../images/cooking.jpg);
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    height: 14vh;
+    width: 100vw;
+    margin-top: 1vw;
+    padding-top: 1vw;
+    transition: all 1s;
+    /* background-color: khaki; */
+}
+hr{
+    margin:0;
+    background-color: forestgreen;
+}
+header:hover{
+    height: 16vh;
+    transition: all 1s;
+}
+
+h2{
+    position: relative;
+    font-size: 5vh;
+    font-family: Cambria, Cochin;
+    color: chocolate;
+}
+i{
+    color: chocolate;
+}
+#tu{
+    color: cornflowerblue;
+}
+#firstrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.access{
+    display: flex;
+    position: relative;
+    left: 10vw;
+}
+#login{
+    margin-left: 1vw;
+}
+input{
+    width: 30vw;
+    height: 5vh;
+    border-radius: 5%;
+}
+#secondrow{
+    margin-top: 4vh;
+}
+ul{
+    position: relative;
+    bottom: 3vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+a{
+    color: chocolate;
+    text-decoration: none;  
+}
+a:hover{
+    text-decoration: none;
+    color: coral;
+}
+
+
+
+#row1{
+    display: flex;
+    flex-direction: row;
+    /* background-image: url(../images/going-to-school.jpg); */
+    justify-content: center;
+    background-size: 50% 100%;
+    background-repeat: no-repeat;
+    padding: 2vw;
+    background-color: aliceblue;
+}
+.row1div{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/discussion.jpg);
+    background-size: 100% 100%;
+    height: 40vh;
+    width: 60vw;
+    padding: 2vw;
+}
+button{
+    position: relative;
+    width: 10vw;
+    height: 6vh;
+    color: darkcyan;
+    left: 10vw;
+    border-radius: 3%;
+}
+h1{
+    color: aliceblue;
+    font-size: 35px;
+}
+.home{
+    color: aliceblue;
+    font-size: 25px;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+.blockread{
+    width: 30vw;
+}
+.row3{
+    display: flex;
+    padding: 1vw;
+    justify-content: space-around;
+}
+#row3frame{
+    height: 50vh;
+    width: 50vw;
+    background-color: aquamarine;
+    background-image: var(--image);
+    background-size: 100% 100%;
+    color: antiquewhite;
+    transition: all 2s;
+}
+#weeklytop{
+    height: 50vh;
+    width: 22vw;
+    background-color: honeydew;
+    background-image: url(../images/smiling-man.jpg);
+    background-size: 100% 85%;
+    background-repeat: no-repeat;
+}
+#display{
+    position: relative;
+    top: 43vh;
+    left: 3vw;
+    color: yellowgreen;
+}
+#frame{
+    position: relative;
+    top: 40vh;
+    left: 20vw;
+    color: coral;
+    font-size: 25px;
+    transition: all 3s;
+}
+.row4{
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+}
+#container4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.preview{
+    height: 40vh;
+    width: 20vw;
+    border: 1px solid yellowgreen;
+    border-radius: 2%;
+}
+.profileheader{
+    height: 15vh;
+    width: 20vw;
+    border: 1px solid plum;
+    background-color: grey;
+}
+.profilepic{
+    position: relative;
+    height: 10vh;
+    width: 5vw;
+    left: 7vw;
+    bottom: 4vh;
+    border: 1px solid palegreen;
+    background-color: aquamarine;
+    margin: 0;
+}
+.profilestatus{
+    position: relative;
+    height: 15vh;
+    width: 20vw;
+    border: 1px solid pink;
+    margin: 0px;
+    bottom: 4vh;
+    transform-origin: center bottom 1px;
+}
+.profilefooter{
+    position: relative;
+    display: flex;
+    height: 4vh;
+    bottom: 4vh;
+    width: 20vw;
+    border: 1px solid powderblue;
+}
+.rows{
+    margin-top: 2vh;
+    border-radius: 1%;
+    margin-bottom: 3vh;
+}
+footer{
+    padding: 0.7vw;
+}
